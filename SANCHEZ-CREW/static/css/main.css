@@ -4,7 +4,10 @@
 
 main {
   display: flex;
-  background-color: aqua;
+}
+
+.heading {
+  background-color: #177164;
 }
 
 /*# sourceMappingURL=main.css.map */
