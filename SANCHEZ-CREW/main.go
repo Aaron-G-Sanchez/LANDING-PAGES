@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello")
+	fmt.Println("Hello, World")
 
 	landing := templates.LandingPage()
 
