@@ -6,3 +6,7 @@ SASS_OUTPUT := static/css/main.css
 .PHONY: sass
 sass: 
 	sass $(SASS_SOURCE) $(SASS_OUTPUT)
+
+.PHONY: live/sass
+live/sass: 
+	sass --watch $(SASS_SOURCE):$(SASS_OUTPUT)
