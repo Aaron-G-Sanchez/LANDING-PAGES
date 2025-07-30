@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Hello")
 
 	landing := templates.LandingPage()
 
@@ -19,8 +20,8 @@ func main() {
 
 	http.Handle("/", templ.Handler(landing))
 
-	fmt.Println("Listening on :3000")
-	if err := http.ListenAndServe(":3000", nil); err != nil {
+	fmt.Println("Listening on :8080")
+	if err := http.ListenAndServe(":8080", nil); err != nil {
 		log.Printf("Error listening: %v", err)
 	}
 }
