@@ -10,3 +10,7 @@ sass:
 .PHONY: live/sass
 live/sass: 
 	sass --watch $(SASS_SOURCE):$(SASS_OUTPUT)
+
+.PHONY: templ-build
+templ-build:
+	templ generate
