@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+
 	landing := templates.LandingPage()
 
 	fs := http.FileServer(http.Dir("static"))

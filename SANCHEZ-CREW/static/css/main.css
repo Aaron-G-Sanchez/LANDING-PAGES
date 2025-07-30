@@ -1,5 +1,6 @@
 * {
   padding: 0;
+  margin: 0;
 }
 
 main {
@@ -8,6 +9,7 @@ main {
 
 .heading {
   background-color: #177164;
+  display: flex;
 }
 
 /*# sourceMappingURL=main.css.map */
