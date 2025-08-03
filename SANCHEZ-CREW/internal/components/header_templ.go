@@ -29,7 +29,7 @@ func HeaderTemplate() templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 1, "<header class=\"heading\"><h1>Sanchez Crew</h1></header>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 1, "<header class=\"heading\"><div class=\"title\"><h2>The Sanchez Crew</h2></div><div class=\"hero\"><h1>Lawncare <br>&amp Landscape Management</h1></div></header>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

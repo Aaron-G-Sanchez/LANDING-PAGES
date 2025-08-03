@@ -1,16 +1,39 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4fffe;
 }
 
 main {
   display: flex;
+  height: 60%;
 }
 
 .heading {
+  height: 40%;
   background-color: #177164;
+  color: #f4fffe;
   display: flex;
-  color: bisque;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  height: 10%;
+  width: 90%;
+}
+
+.hero {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */
